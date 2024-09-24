@@ -1,9 +1,9 @@
-package service;
+package com.example.estudiantes.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import entity.Estudiante;
+import com.example.estudiantes.entity.Estudiante;
 
 public interface EstudianteInterface {
 	List<Estudiante> findAll();

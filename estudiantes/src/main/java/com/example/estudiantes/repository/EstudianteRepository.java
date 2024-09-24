@@ -1,9 +1,9 @@
-package repository;
+package com.example.estudiantes.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import entity.Estudiante;
+import com.example.estudiantes.entity.Estudiante;
 
 public interface EstudianteRepository extends JpaRepository<Estudiante, Integer> {
 
