@@ -20,7 +20,6 @@ public class EstudianteService implements EstudianteInterface {
 		return estudiante_repository.findAll();
 	}
 	
-	
 	public Optional<Estudiante> findById(Integer id){
 		return estudiante_repository.findById(id);
 	}

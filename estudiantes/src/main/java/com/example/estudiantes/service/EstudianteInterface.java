@@ -6,6 +6,7 @@ import java.util.Optional;
 import com.example.estudiantes.entity.Estudiante;
 
 public interface EstudianteInterface {
+	
 	List<Estudiante> findAll();
 	
 	Optional<Estudiante> findById(Integer id);
